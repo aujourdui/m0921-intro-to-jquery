@@ -18,17 +18,17 @@ function eventListener() {
   $(".panel").on("keydown", function () {
     updateOutput();
   });
-  changedAlert();
+  // changedAlert();
 }
 
-function changedAlert() {
-  $(".panel").on("keypress", function (e) {
-    e.preventDefault;
-    if (e.which === 13) {
-      alert("Your output has been changed!");
-    }
-  });
-}
+// function changedAlert() {
+//   $(".panel").on("keypress", function (e) {
+//     e.preventDefault;
+//     if (e.which === 13) {
+//       alert("Your output has been changed!");
+//     }
+//   });
+// }
 
 function toggle() {
   $(document).ready(function () {
