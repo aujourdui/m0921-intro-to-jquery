@@ -12,10 +12,12 @@
       href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"
     />
     <style>
-        html{
+        html, body{
+            font-family: sans-serif;
             margin: 0;
             padding: 0;
         }
+
         #header {
             width: 100%;
             background-color: #eee;
@@ -42,6 +44,10 @@
             padding: 16px;
             border-right: none;
             font-size: 90%;
+        }
+
+        .toggleButton:hover{
+            cursor: pointer;
         }
 
         #html {
@@ -115,5 +121,7 @@
     </textarea>
 
     <iframe frameborder="0" id="outputPanel" class="panel"></iframe>
+    
+    <script src="index7.js"></script>
 </body>
 </html>
